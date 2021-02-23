@@ -15,6 +15,7 @@
 		D448EA0325C0C3F0006B1EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D448EA0125C0C3F0006B1EAA /* LaunchScreen.storyboard */; };
 		D448EA0E25C0C3F0006B1EAA /* FoodTracker2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448EA0D25C0C3F0006B1EAA /* FoodTracker2Tests.swift */; };
 		D448EA1925C0C3F0006B1EAA /* FoodTracker2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448EA1825C0C3F0006B1EAA /* FoodTracker2UITests.swift */; };
+		D4D1F8AB25E58ED700573400 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1F8AA25E58ED700573400 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D448EA1425C0C3F0006B1EAA /* FoodTracker2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTracker2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D448EA1825C0C3F0006B1EAA /* FoodTracker2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTracker2UITests.swift; sourceTree = "<group>"; };
 		D448EA1A25C0C3F0006B1EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D1F8AA25E58ED700573400 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D448E9F625C0C3EC006B1EAA /* AppDelegate.swift */,
 				D448E9F825C0C3EC006B1EAA /* SceneDelegate.swift */,
 				D448E9FA25C0C3EC006B1EAA /* ViewController.swift */,
+				D4D1F8AA25E58ED700573400 /* RatingControl.swift */,
 				D448E9FC25C0C3EC006B1EAA /* Main.storyboard */,
 				D448E9FF25C0C3F0006B1EAA /* Assets.xcassets */,
 				D448EA0125C0C3F0006B1EAA /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D1F8AB25E58ED700573400 /* RatingControl.swift in Sources */,
 				D448E9FB25C0C3EC006B1EAA /* ViewController.swift in Sources */,
 				D448E9F725C0C3EC006B1EAA /* AppDelegate.swift in Sources */,
 				D448E9F925C0C3EC006B1EAA /* SceneDelegate.swift in Sources */,

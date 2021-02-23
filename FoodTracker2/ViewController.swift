@@ -12,12 +12,14 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    let tapGesture = UITapGestureRecognizer(target: self, action: #selector(selectImageFromPhotoLibrary))
     //TODO: Properties2
     //FIXME: Properties3
     override func viewDidLoad() {
         super.viewDidLoad()
         // Handle the text field’s user input through delegate callbacks.
         nameTextField.delegate = self
+        photoImageView.addGestureRecognizer(tapGesture)
     }
   
     //MARK: UITextFieldDelegate
@@ -48,8 +50,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         dismiss(animated: true, completion: nil)
     }
     //MARK: - Actions
-    @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
-        
+    @objc func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
+        print("oi")
         // Hide the keyboard.
         nameTextField.resignFirstResponder()
         
