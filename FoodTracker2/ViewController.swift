@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
-    let tapGesture = UITapGestureRecognizer(target: self, action: #selector(selectImageFromPhotoLibrary))
+    lazy var tapGesture = UITapGestureRecognizer(target: self, action: #selector(selectImageFromPhotoLibrary))
     //TODO: Properties2
     //FIXME: Properties3
     override func viewDidLoad() {

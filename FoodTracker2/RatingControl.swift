@@ -23,14 +23,14 @@ class RatingControl: UIStackView {
     private func setupButtons() {
         // Create the button
         let button = UIButton()
-        button.backgroundColor = UIColor.red
+        button.backgroundColor = UIColor.blue
         
         // Add constraints
-           button.translatesAutoresizingMaskIntoConstraints = false
-           button.heightAnchor.constraint(equalToConstant: 30.0).isActive = true
-           button.widthAnchor.constraint(equalToConstant: 30.0).isActive = true
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
            
-           // Add the button to the stack
-           addArrangedSubview(button)
+        // Add the button to the stack
+        addArrangedSubview(button)
     }
 }
